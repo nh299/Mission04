@@ -1,0 +1,24 @@
+﻿ody {
+    /*Did a different font*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+label {
+    font-size: 20px;
+    /*Also chose a new color*/
+    color: seagreen;
+    width: 150px;
+    display: inline-block;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    inline-size: 500px;
+}
