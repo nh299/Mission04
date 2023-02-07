@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <!--The image of my Dad and I skiing is also used as the icon for this website-->
+    <link rel="icon" type="image/x-icon" href="img/skiingwithdad.jpg" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Main Page</a>
+        <a asp-controller="Blah" asp-action="Calculation">Grade Calculator</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+    <footer>This is the Footer</footer>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+</body>
+</html>

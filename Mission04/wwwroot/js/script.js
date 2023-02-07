@@ -21,7 +21,9 @@ $('#btnCalc').click(function () {
     //Then I print the output  by taking the calculated output number and placing it into an output sentence.
     $(document).ready(function () {
         var output = $('#output');
-        let outputSentence = "Your grade in IS 413 will be: " + outputNumber + "%"
-        output.html(outputSentence);
+        let outputSentence = "Your grade in IS 413 will be: " + outputNumber + "%";
+        //output.html(outputSentence);
+        alert(outputSentence);
+
     })
 })
